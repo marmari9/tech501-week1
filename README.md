@@ -1,12 +1,9 @@
 # Week 1 learning 
 
-- [Week 1 learning](#week-1-learning)
-- [this is a new line](#this-is-a-new-line)
-    - [Bullet points](#bullet-points)
-    - [Bold and Italics](#bold-and-italics)
-    - [images](#images)
-    - [Links](#links)
-    - [What is git?](#what-is-git)
+**Topics**
+
+* [Intro to agile](agile/README.md)
+
 
 
 
@@ -45,3 +42,5 @@ Click [here](http://google.com) to go to google
     * Modified:(untracked,red)
     * Staged: (tracked, added to index, green)
     * committed
+*  After commit we can reveiw all the previous versions. Review the difference between between soft and hard git reset. 
+*  

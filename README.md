@@ -3,6 +3,9 @@
 **Topics**
 
 * [Intro to agile](agile/README.md)
+  
+* [Intro to the cloud](Cloud/README.md)
+
 
 
 

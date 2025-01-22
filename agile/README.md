@@ -1,12 +1,22 @@
-## Agile intro 
+## Agile Introduction
 
-* agile manefesto
-    * individual and interactions
-    * work and software
-    * customer collaboration: you would know what their business needs
-    * responding to change 
-* principles: CI/CD pipeline, reflection, conti delivery
-* agile is a way of thinking; people oriented, adaptive not predictive. 
-* some companies prefer waterfall due to culture
-* forcasting in agile where you pick a date where the stakeholders require the job to be done on time.
+- **Agile Manifesto**:
+  - **Individuals and Interactions**: Prioritising people and communication over processes and tools.
+  - **Working Software**: Delivering functional software over comprehensive documentation.
+  - **Customer Collaboration**: Understanding and aligning with business needs.
+  - **Responding to Change**: Embracing adaptability over following a rigid plan.
 
+- **Key Principles**:
+  - Continuous Integration (CI) and Continuous Delivery (CD) pipelines.
+  - Reflection and regular feedback loops.
+  - Continuous delivery of value to the customer.
+
+- **Agile Mindset**:
+  - A way of thinking that is people-oriented, adaptive, and flexible.
+  - Focuses on collaboration and incremental progress rather than rigid predictions.
+
+- **Waterfall vs Agile**:
+  - Some organisations prefer **waterfall** due to cultural or operational preferences.
+
+- **Forecasting in Agile**:
+  - Involves setting a date to ensure stakeholders' expectations are met while maintaining flexibility in execution.

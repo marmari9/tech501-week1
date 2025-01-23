@@ -46,4 +46,3 @@ Click [here](http://google.com) to go to google
     * Staged: (tracked, added to index, green)
     * committed
 *  After commit we can reveiw all the previous versions. Review the difference between between soft and hard git reset. 
-*  

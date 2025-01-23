@@ -150,8 +150,8 @@ Costs typically include:
 
 ## SSh(secure shell):
 
-* Used to sign into Azure account 
-* how to generate a private key using bash on local drive?
-    * 1- create a .ssh file (ssh-keygen -t rsa -b 4096 -C "youremailaddress")
-    * 2- write the name (eg. tech501-maram-az-key)
+- Used to sign into Azure account 
+- how to generate a private key using bash on local drive?
+    - 1- create a .ssh file (ssh-keygen -t rsa -b 4096 -C "youremailaddress")
+    - 2- write the name (eg. tech501-maram-az-key) 
   

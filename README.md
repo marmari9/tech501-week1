@@ -6,7 +6,9 @@
   
 * [Intro to the cloud](Cloud/README.md)
 
+* [Azure](Cloud/Azure.md)
 
+* [Nginx](Cloud/Nginx.md)
 
 
 

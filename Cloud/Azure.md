@@ -38,7 +38,8 @@ Networking tab:
 - paste the pathway of the private key.
 - paste the address into git and type yes. 
 
-
+- use this on git to connect to the VM on azure : ssh-copy-id -i ~/.ssh/id_rsa haashim@192.168.1.244
+- 
 ### when deleting VM delete:
 - disk
 - network interface

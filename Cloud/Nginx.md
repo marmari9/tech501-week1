@@ -7,12 +7,13 @@
   - [Backup Default Nginx Webpage](#backup-default-nginx-webpage)
   - [Replace Default Nginx Webpage with Custom Content](#replace-default-nginx-webpage-with-custom-content)
   - [Download an Image and Display it on the Webpage](#download-an-image-and-display-it-on-the-webpage)
+  - [Use the IP address to access the webpage. (http://.....)](#use-the-ip-address-to-access-the-webpage-http)
 
 
 ---
 
 ### Install Nginx
-To install **Nginx** on the Ubuntu 18.04 LTS VM, run the following commands:
+To install **Nginx**, run the following commands:
 
 - sudo apt update
 - sudo apt install nginx
@@ -44,5 +45,7 @@ To install **Nginx** on the Ubuntu 18.04 LTS VM, run the following commands:
 
 ### Download an Image and Display it on the Webpage
 - sudo wget https://example.com/sample-image.jpg -O /var/www/html/myimage.jpg
-
-
+- or use curl https:// ...... --output cat.jpg
+- using wget requires elevated permission so sudo might be needed compared to using curl.
+  
+### Use the IP address to access the webpage. (http://.....) 

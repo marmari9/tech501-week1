@@ -154,4 +154,5 @@ Costs typically include:
 - how to generate a private key using bash on local drive?
     - 1- create a .ssh file (ssh-keygen -t rsa -b 4096 -C "youremailaddress")
     - 2- write the name (eg. tech501-maram-az-key) 
+    - 3- Keep the private key secret and add your public key to the VM when created. 
   

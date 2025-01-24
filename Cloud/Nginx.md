@@ -1,13 +1,13 @@
-## Nginx Web Server Setup and Customization
+## Nginx Web Server Setup and Customization: 
 
-- [Nginx Web Server Setup and Customization](#nginx-web-server-setup-and-customization)
+- [Nginx Web Server Setup and Customization:](#nginx-web-server-setup-and-customization)
   - [Install Nginx](#install-nginx)
   - [Verify Nginx Installation](#verify-nginx-installation)
   - [Ensure Nginx is Enabled at Startup](#ensure-nginx-is-enabled-at-startup)
   - [Backup Default Nginx Webpage](#backup-default-nginx-webpage)
   - [Replace Default Nginx Webpage with Custom Content](#replace-default-nginx-webpage-with-custom-content)
   - [Download an Image and Display it on the Webpage](#download-an-image-and-display-it-on-the-webpage)
-  - [Use the IP address to access the webpage. (http://.....)](#use-the-ip-address-to-access-the-webpage-http)
+  - [Use the Public IP address to access the webpage. (http://.....)](#use-the-public-ip-address-to-access-the-webpage-http)
 
 
 ---
@@ -48,4 +48,4 @@ To install **Nginx**, run the following commands:
 - or use curl https:// ...... --output cat.jpg
 - using wget requires elevated permission so sudo might be needed compared to using curl.
   
-### Use the IP address to access the webpage. (http://.....) 
+### Use the Public IP address to access the webpage. (http://.....) 

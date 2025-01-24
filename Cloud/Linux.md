@@ -12,3 +12,32 @@
 - cd ../..: Move up two directory levels.
 - curl: Transfer data from/to a server (download files).
 - wget: Download files from a URL.
+- mv: rename files, or move files ( end the comand with / or it will rename instead). 
+- cp: copy files  
+- rm: remove files
+- rm -r: remove directory (forced remove for dir/files with content)
+- rm dir: works only on empty directory
+- nano: text editor 
+  - ctrl+ s: save 
+  - Ctrl+ x:
+  - exit
+- cat: read content of files
+- touch: create a file
+- rmdir --help: help
+- head : shows the first 10 lines of a file, for a specific line ; head -n
+- tail: shows the last 10 lines of a file, for a specific line ; tail -n
+- nl: displays a file's content with line numbers
+- sudo su: login as a root user
+- mv: move file to directory 
+* revise absolute and relative paths
+* to run a script follow these steps:
+    - check permission : ls -l
+    - change permission if needed: chmod +x(for execution) file.sh
+    - advg is automation of commands like we did with Nginx 
+- Environmental variables: accessed by Apps, can be cleared after app is done.
+    - to create an envir variable: eg; export MYNAME=maram
+    - printenv MYNAME(case-sensitive)
+    - to add the variable to a .bashcr file (different for each user):
+      - echo "export MYNAME=maram_h" >>.bashrc (adds envi var to the end of the file).
+      - tail -3 .bashrc (last 3 lines of bashcr file)
+      - source .bashcr: apply updates to .bashrc without restarting your terminal

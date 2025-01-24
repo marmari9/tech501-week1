@@ -10,6 +10,11 @@
 
 * [Nginx](Cloud/Nginx.md)
 
+* [Linux commands](Cloud/Linux.md)
+
+
+
+
 
 
 # this is a new line 

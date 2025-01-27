@@ -96,7 +96,7 @@
 ## Is Migrating to the Cloud Always Cheaper?
 - Not always cheaper due to hidden costs like bandwidth and support.
 - Cost savings depend on optimised resource usage and proper planning.
-
+- staff costs, utility, compare to the cloud.
 ---
 
 ## Market Share Trends
@@ -155,4 +155,4 @@ Costs typically include:
     - 1- create a .ssh file (ssh-keygen -t rsa -b 4096 -C "youremailaddress")
     - 2- write the name (eg. tech501-maram-az-key) 
     - 3- Keep the private key secret and add your public key to the VM when created. 
-  
+  -  ssh -i ~/.ssh/tech501-maram-az-key adminuser@20.254.68.12

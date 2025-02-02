@@ -1,8 +1,9 @@
-### important linux commands:
+# important linux commands:
 
-- pwd: Print the current working directory.
+- pwd: Print the current working directory. you should get the path.
 - ls: List files and directories in the current directory.
 - ls -a: Show all files, including hidden ones.
+  - example: .ssh (start with . is hidden)
 - ls -l: List files with detailed information (permissions).
 - ls -al: Combine -a and -l to show all files with their permission.
 - cd: Change directory.
@@ -41,6 +42,16 @@
       - echo "export MYNAME=maram_h" >>.bashrc (adds envi var to the end of the file).
       - tail -3 .bashrc (last 3 lines of bashcr file)
       - source .bashcr: apply updates to .bashrc without restarting your terminal
+
+
+# Generating a key pair for ssh:
+- mkdir .ssh
+- cd .ssh
+- check dir path ; pwd 
+- ssh-keygen -t rsa -b 4096 -c "maramalhmaidi@gmail.com"
+- tech501-maram-az-key
+- enter twice. 
+- ls to check keys generated (public and private).
 
 
 ### Linux process:

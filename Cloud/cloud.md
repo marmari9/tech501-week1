@@ -1,9 +1,9 @@
-## cloud
 # Cloud Computing Documentation
 
 ## Table of Contents
 - [Cloud Computing Documentation](#cloud-computing-documentation)
   - [Table of Contents](#table-of-contents)
+  - [What is the cloud?](#what-is-the-cloud)
   - [How to Identify Cloud Services](#how-to-identify-cloud-services)
   - [Differences Between On-Prem and Cloud](#differences-between-on-prem-and-cloud)
   - [Cloud Deployment Models](#cloud-deployment-models)
@@ -22,6 +22,19 @@
   - [SSh(secure shell):](#sshsecure-shell)
 
 ---
+
+## What is the cloud?
+- resources (vms, vnets,DBs, azure blob storage).
+- capacity to create resources.
+- available over the internet
+- centrally managed, accessed remotely on user interface.
+- Being in the cloud doesn't mean more security; shared responsibilty between the client and cloud provider; depends on the service you choose. 
+- control/responsibilty:
+  - On-premises; control everything from hardware to software.
+  - IaaS: VM (you are resposible on the software).
+  - PaaS: app service(you are only responsible about code).
+  - SaaS: Microsoft 365 (you only control data).
+
 
 ## How to Identify Cloud Services
 - Accessible via the internet.

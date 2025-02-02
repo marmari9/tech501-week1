@@ -12,27 +12,44 @@
 
 * [Linux commands](Cloud/Linux.md)
 
+* [Devops](Devops/devops.md) 
 
 
 
 
+* For preview (ctrl+shift+v)
 
-# this is a new line 
+# Main Heading
+
+## this is a subheading 
 
 ### Bullet points
-
-
-- Use when squence is **not** important
+- Use when squence is **not** important.
 
 * point 1 
     * sub point 1
     * sub point 2
+### (focus on indentation)
 
 * point 2
+- point 3 
 
 ### Bold and Italics 
 * ctrl + B - **bold**
 * Ctrl + I - *italics*
+
+
+
+### Numbered steps:
+- Number it if it's steps
+1. First instriction
+2. Second instruction
+   1. substep1 
+   2. substep2 
+        * Point for stepstep2
+
+<br><br>  to make space between sections
+
 
 ### images
 
@@ -40,6 +57,10 @@
 
 ### Links
 Click [here](http://google.com) to go to google
+
+
+### Table of contents:
+- ctrl + shift + p
 
 
 

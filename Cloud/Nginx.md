@@ -1,7 +1,8 @@
 ## Nginx Web Server Setup and Customization: 
 
 - [Nginx Web Server Setup and Customization:](#nginx-web-server-setup-and-customization)
-  - [Install Nginx](#install-nginx)
+  - [](#)
+  - [Install Nginx (webserver); serves web pages:](#install-nginx-webserver-serves-web-pages)
   - [Verify Nginx Installation](#verify-nginx-installation)
   - [Ensure Nginx is Enabled at Startup](#ensure-nginx-is-enabled-at-startup)
   - [Backup Default Nginx Webpage](#backup-default-nginx-webpage)
@@ -12,11 +13,46 @@
 
 ---
 
-### Install Nginx
-To install **Nginx**, run the following commands:
 
-- sudo apt update
+### 
+
+- sudo apt update -y
+- sudo apt upgrade -y 
+
+### Install Nginx (webserver); serves web pages: 
+To install **Nginx**, run the following commands:
+```bash
+- nano provision.sh
+```
+- Add these to the file:
+```bash
+# update 
+sudo apt update -y
+# upgrade
+sudo apt upgrade -y
+ ## check if it ask for user input; if it does it will hang waiting for user input. 
+
+ ## ctrl +s , Ctrl +x 
+
+# install nginx
+sudo apt install nginx -y
+
+- must restart to take effect of changes
+
+# restart nginx
+sudo systemctl restart nginx
+
+# enable nginx
+sudo systemctl enable nginx
+
+```
+- check public IP for the VM and then it should work; http://
+
+
+```
+- sudo apt-get update -y
 - sudo apt install nginx
+    - super user do "root user"
 
 
 ### Verify Nginx Installation
